@@ -1,9 +1,7 @@
 package javapractice;
-
 import java.util.Scanner;
-
 public class StringCombi {
-		static String temstr = "";
+	static String temstr = "";
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
@@ -15,19 +13,15 @@ public class StringCombi {
 						temstr = swap (temstr , i);
 						System.out.println(temstr);
 					}
-				
-										count++;
+					count++;
 				}while (count<Str.length());
 			
 	}
 	private static String swap(String temstr, int i) {
 		char [] ca = temstr.toCharArray();
-		
 		char t = ca[i];
 		ca[i] = ca[i+1];
 		ca[i+1] = t;
-		
-		
 		temstr = String.valueOf(ca);
 		return temstr;
 	}
