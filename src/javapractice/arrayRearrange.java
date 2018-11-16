@@ -46,7 +46,7 @@ public class arrayRearrange {
 		}
 		indexo--;
 			
-		//Part 3 - enter all postivie/negative remaining directly	
+		//Part 3 - enter all remaining  positive/negative remaining directly	
 		
 		if (pos.length>neg.length) {
 			for(int i=indexo;i<a.length;i++) {
