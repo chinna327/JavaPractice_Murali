@@ -27,8 +27,7 @@ public class arrayRearrange {
 			 small = neg.length;
 		}else {
 			 small = pos.length;
-		}
-			
+		}	
 		
 		//Part 1 - enter all postivie alternatively
 		int indexo=0;
@@ -44,8 +43,7 @@ public class arrayRearrange {
 			indexo++;
 			indexo++;
 		}
-		indexo--;
-			
+		indexo--;			
 		//Part 3 - enter all remaining  positive/negative remaining directly	
 		
 		if (pos.length>neg.length) {
