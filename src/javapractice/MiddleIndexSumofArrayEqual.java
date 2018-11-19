@@ -12,6 +12,10 @@ public class MiddleIndexSumofArrayEqual {
 		
 		
 		index++;
+		if((index>n.length)&&(flg ==false)) {
+			System.out.println("The array is not having proper values ");
+			System.exit(0);
+		}
 		
 		};
 		index--;
