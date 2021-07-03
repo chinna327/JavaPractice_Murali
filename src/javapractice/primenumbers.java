@@ -11,6 +11,7 @@ public class primenumbers {
 							}
 							if (count==0)
 							System.out.print(" "+i);
+						
 							
 							
 				
