@@ -17,6 +17,7 @@ public class anagram {
 		}else {
 			System.out.println("Strings are not Anagram");
 		}
+		s.close();
 	}
 		
 	static boolean isanagram(String st, String st2)
