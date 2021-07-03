@@ -15,7 +15,7 @@ public class StringCombi {
 					}
 					count++;
 				}while (count<Str.length());
-			
+			sc.close();
 	}
 	private static String swap(String temstr, int i) {
 		char [] ca = temstr.toCharArray();

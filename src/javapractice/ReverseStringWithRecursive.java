@@ -10,6 +10,7 @@ public class ReverseStringWithRecursive {
 		String str = s.nextLine();
 		String rev = reverseString(str);
 		System.out.println("reverseed is "+rev);
+		s.close();
 	}
 	
 	static String reverseString(String st){		

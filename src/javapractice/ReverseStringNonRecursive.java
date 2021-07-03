@@ -10,6 +10,7 @@ public class ReverseStringNonRecursive {
 		StringBuffer rev = new StringBuffer(str);
 		rev.reverse();
 		System.out.println(rev);
+		s.close();
 		}
 
 }
